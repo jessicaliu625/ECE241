@@ -69,7 +69,7 @@ module fill
 	// Put your code here. Your code should produce signals x,y,colour and writeEn
 	// for the VGA controller, in addition to any other functionality your design may require.
     
-	 
+	 assign colour = SW[9:7];
 	 
     // Instanciate datapath
 	
